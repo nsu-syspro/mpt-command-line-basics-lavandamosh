@@ -1,4 +1,3 @@
-#!/bin/bash
 
 
 find . -name "foo.txt" -exec cat {} \;
