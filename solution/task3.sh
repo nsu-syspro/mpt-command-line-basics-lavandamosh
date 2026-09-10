@@ -4,4 +4,4 @@
 
 
 
-find . -name "*.txt" -exec basename {} \; | sort
+find . -type f -name "*.txt" -exec basename {} \; | sort
